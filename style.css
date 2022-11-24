@@ -1,0 +1,227 @@
+ body{
+  margin: 0%;
+
+} 
+
+.ul {
+  
+  
+  list-style-type: none;
+  margin:0px 0px 0px 300px;
+
+  padding-top: 20px;
+}
+.uls {
+  
+  
+  list-style-type: none;
+
+  padding-top: 10px;
+  text-align:left;
+  margin-left: -39px;
+  font-size: 13px;
+  color: rgb(194, 196, 196);
+}
+
+.li {
+  padding: 10px;
+  display: inline;
+  font-size: larger;
+}
+.li:hover{
+background-color: rgb(76, 87, 100);
+/* border-radius: solid 10px; */
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.one{
+  background-image:url("./images/Desktop--ICC-T20-3000-x-1300-opV2.jpg.ximg.full.hero.jpg");
+  background-size: cover;
+
+  height: 570px;
+}
+
+.logo{
+  margin: 10px;
+  width: 200px;
+}
+
+.started{
+  margin-left: 20px;
+  background-color: rgb(190, 17, 17);
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+
+button:hover{
+  background-color:rgb(246, 30, 30);
+}
+
+p{
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.column {
+  margin-left: 50px;
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.two{
+  margin:20px;
+}
+
+.kicks{
+
+  font-size: 25px;
+  font-weight: 100;
+}
+.book{
+  color: black;
+}
+
+.book:hover{
+  color: rgb(244, 7, 7);
+}
+
+.rectangle {
+  height: 5px;
+  width: 100px;
+  background-color: rgb(194, 13, 13);
+}
+
+.three{
+  margin:40px;
+}
+
+
+.column1{
+  margin-left: 30px;
+  float: left;
+  width: 28%;
+  padding-left: 10px;
+}
+
+.spotTag{
+  /* color: rgb(134, 99, 99); */
+  margin-left: 0px;
+}
+
+.container{
+  margin: 40px;
+  width:95%;
+  height:350px;
+  background-color:rgba(188, 181, 171, 0.521)
+}
+
+.what{
+  padding: 70px 70px 0px 380px;
+  font-size: 30px;
+}
+
+.flex1{
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  /* flex-direction:column; */
+}
+
+.row3::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column2{
+  margin-top: 100px;
+  margin-left: 50px;
+  float: left;
+  width: 19%;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column2:hover{
+text-decoration: underline;
+color: brown;
+}
+
+.four{
+  background-color: rgb(35, 33, 33);
+  color: white;
+}
+
+
+.row4::after{
+
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.column4 {
+  margin-left: 50px;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.ho1{
+  height: 10px;
+}
+
+.hoer:hover{
+  text-decoration: underline;
+}
+
+.lis{
+  padding: 5px;
+  display: inline;
+}
+
+.lis:hover{
+  background-color:black;
+}
+
+footer{
+  background-color: black;
+  /* height: 100px; */
+  color: white;
+  display: flex;
+  list-style-type: none;
+  padding: 50px;
+  font-size: small;
+}
+
+.f1{
+  width: 50%;
+}
+
+.f2{
+  width: 50%;
+}
+
+.list{
+  margin: 20px;
+  padding: 10px;
+  display: inline;
+}
+
+.list:hover{
+  text-decoration: underline;
+}
